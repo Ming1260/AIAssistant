@@ -1,0 +1,16 @@
+{
+  "mode": "mock",
+  "stage": "bp",
+  "profile": "returning",
+  "selectedChampion": "ahri",
+  "buildApplied": false,
+  "connectedAt": "2026-07-29T02:35:04.866Z",
+  "annotations": [
+    {
+      "id": "a1",
+      "time": "18:00",
+      "text": "这里应该提前回城，下一局重点练习。",
+      "createdAt": "2026-07-29T00:00:00.000Z"
+    }
+  ]
+}

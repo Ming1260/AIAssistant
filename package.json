@@ -1,0 +1,29 @@
+{
+  "name": "rift-mate-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k \"pnpm run dev:server\" \"pnpm run dev:web\"",
+    "dev:server": "node --watch server/index.js",
+    "dev:web": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "start": "node server/index.js",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "lucide-react": "^0.468.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "recharts": "^3.10.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.6.0",
+    "concurrently": "^9.2.0",
+    "supertest": "^7.1.1",
+    "vite": "^7.0.6",
+    "vitest": "^3.2.4"
+  },
+  "packageManager": "pnpm@11.9.0"
+}

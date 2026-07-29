@@ -1,0 +1,5 @@
+node_modules/
+dist/
+.tmp_prd_render/
+*.log
+.env.local
